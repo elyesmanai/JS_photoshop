@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+         ::selection{
+            background-color: tomato;
+         
+         }
+    </style>
+</head>
+<body>
+    <button onclick="test()">bold</button>
+    <p>Lorem ipsum dolor sit amet, consectetur web web adipisicing elit. Quasi fugiat obcaecati cum odit porro tempora soluta recusandae hic, culpa vero eum ad nobis fuga aperiam, ipsa optio ab illum placeat!</p>
+</body>
+<script>
+    function test(){
+        var selection = window.getSelection(); // the select text object
+
+        var text = selection.toString(); // the selected text
+        var parent = selection.anchorNode(); // the selected text's parent node
+
+        var start = selection.anchorOffset;
+        var length = text.length();
+
+
+        text.style.color="red";
+
+
+        console.log(selected);
+    }https://elyesmanai.github.io/Fankli/
+    
+</script>
+</html>

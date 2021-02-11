@@ -1,0 +1,92 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animate.css">
+
+
+    </head>
+    
+    <body>
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-lg-2">
+                  <center>Filters</center>
+                  <label for="grayscale">Grayscale</label>
+                  <input class="slider" type="range" name="grayscale" min="0" max="1"  step="any"/>
+                  <br>
+                  <label for="contrast">Contrast</label>
+                  <input class="slider" type="range" name="contrast" min="0" max="2"  step="any"/>
+                  <br>
+                  <label for="blur">Blur</label>
+                  <input class="slider" type="range" name="blur" min="0" max="100" value="0" step="any"/>
+                  <br>
+                  <label for="brightness">Brightness</label>
+                  <input class="slider" type="range" name="brightness" min="0" max="1"  step="any"/>
+                  <br>
+                  <label for="opacity">Opacity</label>
+                  <input class="slider" type="range" name="opacity" min="0" max="1" value="1"  step="any"/>
+                  <br>
+                  <label for="saturate">Saturate</label>
+                  <input class="slider" type="range" name="saturate" min="0" max="1"  step="any"/>
+                  <br>
+                  <label for="invert">Invert</label>
+                  <input class="slider" type="range" name="invert" min="0" max="1"  step="any"/>
+                  <br>
+                  <label for="sepia">Sepia</label>
+                  <input class="slider" type="range" name="sepia" min="0" max="1"  step="any"/>
+                  <br>
+              </div>
+
+              <div class="col-lg-8">
+                    <input type="file" id="file"> <br>
+                    <img src="" id="image" alt="" width="100%">
+              </div>
+
+              <div class="col-lg-2">
+                  <div>
+                    <center>Animations</center>
+                    <label for="rotate">Rotate</label>
+                    <input class="slider" type="range" name="rotate" min="-180" max="180"  step="any"/>
+                    <br>
+                    <label for="skew">Skew</label>
+                    <input class="slider" type="range" name="skew" min="-180" max="180"  step="any"/>
+                    <br>
+                    <label for="scale">Scale</label>
+                    <input class="slider" type="range" name="scale" min="0" max="2"  step="any"/>
+                    <br>
+                  </div>
+                  <br>
+                  <br>
+                  <br>
+                  <div>
+                    <center>Cadres</center>
+                    <label for="border">border</label>
+                    <input type="color" name="color" id="border-color">
+                    <select name="border-style" id="border-style">
+                      <option value="dashed">Dashed</option>
+                      <option value="solid">Solid</option>
+                    </select>
+                    <input class="slider" type="range" name="border" min="0" max="100"  step="any"/>
+                    <br>
+                  </div>
+              </div>
+          </div>
+      </div>
+                                                                
+    </body> 
+       <script src="js/jquery.js"></script>
+       <script src="js/main.js"></script>
+       <script src="js/bootstrap.min.js"></script>
+
+
+</html>
